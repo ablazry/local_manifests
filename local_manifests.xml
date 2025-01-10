@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="ablazry" fetch="https://github.com/ablazry" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Device - Common -->
+    <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sm6150" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ablazry" revision="lineage-22.1" />
+
+</manifest>
