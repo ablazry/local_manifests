@@ -4,7 +4,7 @@
 
     <!-- Remotes -->
     <remote name="ablazry" fetch="https://github.com/ablazry" clone-depth="1" />
-    <remote  name="clang" fetch="https://gitlab.com/kei-space/clang" revision="refs/heads/master" />
+    <remote name="clang" fetch="https://gitlab.com/kei-space/clang" revision="refs/heads/master" />
 
     <!-- Removals -->
 
