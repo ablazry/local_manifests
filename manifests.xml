@@ -4,6 +4,7 @@
 
     <!-- Remotes -->
     <remote name="ablazry" fetch="https://github.com/ablazry" clone-depth="1" />
+    <remote  name="clang" fetch="https://gitlab.com/kei-space/clang" revision="refs/heads/master" />
 
     <!-- Removals -->
 
@@ -22,6 +23,9 @@
 
     <!-- Vendor - Common -->
     <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="ablazry" revision="lineage-22.1" />
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r547379" name="r547379" clone-depth="1" remote="clang" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ablazry" revision="lineage-22.1" />
