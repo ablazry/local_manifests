@@ -3,27 +3,28 @@
 <!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
-    <remote name="ablazry" fetch="https://github.com/ablazry" clone-depth="1" />
+    <remote name="PixelOS-AOSP" fetch="https://github.com/PixelOS-AOSP" clone-depth="1" />
+    <remote name="PixelOS-Devices" fetch="https://github.com/PixelOS-Devices" clone-depth="1" />
 
     <!-- Removals -->
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ablazry" revision="lineage-21" />
+    <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Device - Common -->
-    <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="ablazry" revision="lineage-21" />
+    <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sm6150" remote="ablazry" revision="lineage-21" />
+    <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="ablazry" revision="lineage-21" />
+    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="ablazry" revision="lineage-21" />
+    <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ablazry" revision="lineage-21" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fifteen" />
 
 </manifest>
