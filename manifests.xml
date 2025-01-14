@@ -4,14 +4,16 @@
 
     <!-- Remotes -->
     <remote name="PixelOS-AOSP" fetch="https://github.com/PixelOS-AOSP" clone-depth="1" />
+    <remote name="clang" fetch="https://gitlab.com/clang" clone-depth="1" />
     <remote name="PixelOS-Devices" fetch="https://github.com/PixelOS-Devices" clone-depth="1" />
 
     <!-- Removals -->
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/sweet" name="device_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
     <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
+    <project path="device/xiaomi/miuicamera" name="device_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Device - Common -->
     <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="PixelOS-Devices" revision="fifteen" />
@@ -20,7 +22,7 @@
     <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
+    <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
     <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor - Common -->
@@ -28,5 +30,8 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fifteen" />
+
+    <!-- Other Repos -->
+    <project path="prebuilts/clang/host/linux-x86" name="r547379" remote="clang" revision="master" />
 
 </manifest>
