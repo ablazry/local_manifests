@@ -4,11 +4,9 @@
 
     <!-- Remotes -->
     <remote name="PixelOS-AOSP" fetch="https://github.com/PixelOS-AOSP" clone-depth="1" />
-    <remote name="clang" fetch="https://gitlab.com/clang" clone-depth="1" />
     <remote name="PixelOS-Devices" fetch="https://github.com/PixelOS-Devices" clone-depth="1" />
 
     <!-- Removals -->
-    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
     <!-- Repos -->
     <!-- Device -->
@@ -30,8 +28,5 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fifteen" />
-
-    <!-- Other Repos -->
-    <project path="prebuilts/clang/host/linux-x86" name="r547379" remote="clang" revision="master" />
 
 </manifest>
