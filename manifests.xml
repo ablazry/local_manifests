@@ -20,7 +20,7 @@
     <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
+    <project path="vendor/xiaomi/miuicamera-sweet" name="vendor_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
     <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Vendor - Common -->
