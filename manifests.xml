@@ -10,7 +10,7 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="PixelOS-Devices" revision="fifteen" />
+    <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="blaze424" revision="fifteen" />
     <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="PixelOS-Devices" revision="fifteen" />
 
     <!-- Device - Common -->
