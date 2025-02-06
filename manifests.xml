@@ -5,6 +5,7 @@
     <!-- Remotes -->
     <remote name="PixelOS-AOSP" fetch="https://github.com/PixelOS-AOSP" clone-depth="1" />
     <remote name="PixelOS-Devices" fetch="https://github.com/PixelOS-Devices" clone-depth="1" />
+    <remote name="blaze424" fetch="https://github.com/blaze424" clone-depth="1" />
 
     <!-- Removals -->
 
