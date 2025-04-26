@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
     <remote name="blaze424" fetch="https://github.com/blaze424" clone-depth="1" />
 
     <!-- Removals -->
-
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="blaze424" revision="lineage-22.1" />
+    <project path="device/motorola/dubai" name="android_device_motorola_dubai" remote="blaze424" revision="infinity" />
 
     <!-- Device - Common -->
-    <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="blaze424" revision="lineage-22.1" />
+    <project path="device/motorola/sm7325-common" name="android_device_motorola_sm7325-common" remote="blaze424" revision="infinity" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sm6150" remote="blaze424" revision="lineage-22.1" />
+    <project path="kernel/motorola/sm7325" name="android_kernel_motorola_sm7325" remote="blaze424" revision="infinity" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="blaze424" revision="lineage-22.1" />
+    <project path="vendor/motorola/dubai" name="proprietary_vendor_motorola_dubai" remote="blaze424" revision="infinity" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="blaze424" revision="lineage-22.1" />
+    <project path="vendor/motorola/sm7325-common" name="proprietary_vendor_motorola_sm7325-common" remote="blaze424" revision="infinity" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="blaze424" revision="lineage-22.1" />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="blaze424" revision="infinity" />
 
 </manifest>
