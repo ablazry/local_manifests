@@ -3,8 +3,7 @@
 
     <!-- Remotes -->
     <remote name="blaze424" fetch="https://github.com/blaze424" clone-depth="1" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1"/>
-
+    
     <!-- Removals -->
     <!-- Repos -->
     <!-- Device -->
@@ -24,6 +23,5 @@
 
     <!-- Hardware -->
     <project path="hardware/motorola" name="android_hardware_motorola" remote="blaze424" revision="infinity" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-22.2"/>
 
 </manifest>
