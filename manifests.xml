@@ -5,6 +5,8 @@
     <!-- Remotes -->
     <remote name="blaze424" fetch="https://github.com/blaze424" clone-depth="1" />
     <remote name="lineageos" fetch="https://github.com/lineageos" clone-depth="1" />
+    <remote name="themuppets" fetch="https://github.com/themuppets" clone-depth="1" />
+
 
     <!-- Removals -->
     <!-- Repos -->
@@ -18,10 +20,10 @@
     <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sm6150" remote="lineageos" revision="lineage-22.2" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="lineageos" revision="lineage-22.2" />
+    <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="themuppets" revision="lineage-22.2" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="lineageos" revision="lineage-22.2" />
+    <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="themuppets" revision="lineage-22.2" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" revision="lineage-22.2" />
