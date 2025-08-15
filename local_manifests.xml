@@ -2,31 +2,26 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="Infinity-X-Devices" fetch="https://github.com/Infinity-X-Devices" clone-depth="1" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-
+    <remote name="inf" fetch="https://github.com/Dubai-Resources" clone-depth="1" />
     <!-- Removals -->
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/motorola/dubai" name="android_device_motorola_dubai" remote="Infinity-X-Devices" revision="14-gapps" />
+    <project path="device/motorola/dubai" name="android_device_motorola_dubai" remote="inf" revision="InfinityX" />
 
     <!-- Device - Common -->
-    <project path="device/motorola/sm7325-common" name="android_device_motorola_sm7325-common" remote="Infinity-X-Devices" revision="14" />
+    <project path="device/motorola/sm7325-common" name="android_device_motorola_sm7325-common" remote="inf" revision="InfinityX" />
 
     <!-- Kernel -->
-    <project path="kernel/motorola/sm7325" name="android_kernel_motorola_sm7325" remote="Infinity-X-Devices" revision="14" />
+    <project path="kernel/motorola/sm7325" name="android_kernel_motorola_sm7325" remote="inf" revision="15.0-KSU" />
 
     <!-- Vendor -->
-    <project path="vendor/motorola/dubai" name="android_vendor_motorola_dubai" remote="Infinity-X-Devices" revision="14" />
+    <project path="vendor/motorola/dubai" name="proprietary_vendor_motorola_dubai" remote="inf" revision="lineage-22.2" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/motorola/sm7325-common" name="android_vendor_motorola_sm7325-common" remote="Infinity-X-Devices" revision="14" />
+    <project path="vendor/motorola/sm7325-common" name="proprietary_vendor_motorola_sm7325-common" remote="inf" revision="lineage-22.2" />
 
     <!-- Hardware -->
-    <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" revision="lineage-22.2" />
-
-    <!-- Other Repos -->
-    <project path="system/qcom" name="android_system_qcom" remote="LineageOS" revision="lineage-22.2" />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="inf" revision="fifteen" />
 
 </manifest>
