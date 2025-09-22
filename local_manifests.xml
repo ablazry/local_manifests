@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="zeelog" fetch="https://github.com/zeelog" clone-depth="1" />
+    
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="zeelog" revision="lineage-22.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-22.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-22.2" />
+
+</manifest>
